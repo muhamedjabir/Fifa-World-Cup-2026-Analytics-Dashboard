@@ -74,7 +74,7 @@ Data source updates within a few hours of each match finishing. Every page load 
 ### Analytics Tab
 **This is the core data analyst section.**
 
-** Tournament Summary Cards **
+**Tournament Summary Cards**
 
 - Goals per match average
 - Biggest win margin
