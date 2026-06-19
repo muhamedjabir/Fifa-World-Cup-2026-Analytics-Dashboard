@@ -6,6 +6,7 @@
 
 🔗 **Live Demo:** https://muhamedjabir.github.io/Fifa-World-Cup-2026-Analytics-Dashboard/
 
+
 ## Project Overview
 
 The FIFA World Cup 2026 is the biggest tournament in football history — 48 teams, 104 matches, 3 host nations (USA, Canada, Mexico). As a data analyst, I wanted to go beyond just watching the matches and actually analyze the tournament as it unfolds.
