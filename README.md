@@ -15,6 +15,8 @@ This dashboard was built to answer real questions:
 - When in a match are most goals scored?
 - Which groups are the most competitive?
 - Who is leading the Golden Boot race?
+- Which teams are on a winning streak?
+- Which matches had the most dramatic comebacks?
 
 Every answer updates automatically. No manual data entry. No refreshing spreadsheets. Just open the page — and the data is there.
 
@@ -113,21 +115,29 @@ Data source updates within a few hours of each match finishing. Every page load 
 - Populates automatically as teams qualify from group stage
 - Winners highlighted in gold
 
+**Team Form Guide:**
+- Last 3 match results per team → W/D/L badges
+- Points from last 3 games — shows current momentum
 
+**Goals For vs Goals Against:**
+- Dual bar chart per team
+- Attack strength vs defensive weakness at a glance
 
-## Key Insights (As of Latest Data)
+**Comeback Tracker:**
+- Matches where a team was losing at HT → won or drew at FT
+- Clickable → opens match detail popup
 
-| Insight | Finding |
-|---|---|
-| Matches played | 19 of 104 |
-| Total goals | 58 |
-| Goals per match | 3.05 |
-| Top scorer | Lionel Messi (3 goals) |
-| Top team | Germany (7 goals) |
-| Best matchday | Matchday 4 — 19 goals in 4 matches |
-| Draw rate | 42% of matches ended level |
-| Peak scoring minute | 76–90 minute window |
-| Home nation win rate | Host teams winning 9 of 19 matches |
+**Scoreless Half Analysis:**
+- How many matches had 0 goals in 1st half vs 2nd half
+- Auto-generated insight text
+
+**Winning Margin Distribution:**
+- 1 goal / 2 goals / 3 goals / 4+ goals / Draw
+- Shows overall competitiveness of the tournament
+
+**Insights:**
+- Shows insights after every matches it will update automatically
+
 
 Numbers update automatically with each page load
 
@@ -157,6 +167,16 @@ Zero paid tools. Zero frameworks. Zero backend.
 | Empty data returned | Catches error, loads backup |
 | HTTP 4xx/5xx error | Shows exact error code in toast |
 | User retries | Fresh fetch attempt via "Try again" button |
+
+## 📱 Responsive Design
+
+| Device | Breakpoint | Behavior |
+|---|---|---|
+| Desktop | 1400px max | Full layout, all columns visible |
+| Tablet | < 1000px | 2-column grid collapses to 1 |
+| Mobile | < 768px | Compact rows, scrollable tabs, venue column hidden |
+| Small mobile | < 400px | Single column, minimal text, group badge hidden |
+
 
 ## Tournament Info
 
