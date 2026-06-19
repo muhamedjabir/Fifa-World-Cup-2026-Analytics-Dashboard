@@ -2,6 +2,8 @@
 
  A real-time analytics dashboard tracking every match, goal, and stat of FIFA World Cup 2026 — built from scratch with HTML, CSS, and vanilla JavaScript. No frameworks. No paid APIs. Fully free.
 
+ Its fully created through Claude AI by vibe code.
+
 🔗 **Live Demo:** https://muhamedjabir.github.io/Fifa-World-Cup-2026-Analytics-Dashboard/
 
 ## Project Overview
